@@ -15,7 +15,7 @@ export default function Register() {
     }
     //axios post request
     const response = await axios.post(
-      "https://feedback-backend-rcmd.onrender.com/register",
+      "https://feedback-backend-1-3x6z.onrender.com/register",
       {
         email,
         password,

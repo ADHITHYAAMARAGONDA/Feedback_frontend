@@ -10,7 +10,7 @@ export default function Feedback() {
     e.preventDefault();
     //make a request to server post api ,localhost:3000/feedback
     const response = await axios.post(
-      "https://feedback-backend-rcmd.onrender.com/feedback",
+      "https://feedback-backend-1-3x6z.onrender.com/feedback",
       {
         name,
         message,

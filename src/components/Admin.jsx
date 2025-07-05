@@ -5,7 +5,7 @@ export default function Admin() {
 
   async function getFeedback() {
     const response = await axios(
-      "https://feedback-backend-rcmd.onrender.com/feedbacks"
+      "https://feedback-backend-1-3x6z.onrender.com/feedbacks"
     );
     setFeedback(response.data);
     console.log(response.data);

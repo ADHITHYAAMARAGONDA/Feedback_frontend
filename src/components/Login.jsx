@@ -11,7 +11,7 @@ export default function Login() {
     // email is unique ,password is storng
     //axios post request
     const response = await axios.post(
-      "https://feedback-backend-rcmd.onrender.com/login",
+      "https://feedback-backend-1-3x6z.onrender.com/login",
       {
         email,
         password,
